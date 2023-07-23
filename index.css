@@ -1,0 +1,71 @@
+body
+{
+    background-color: #fff6e6;
+}
+
+.topic
+h1{
+
+
+    font-size: 50px;
+    color: #352e28;
+    font-family: 'Pacifico', cursive;
+    isolation: isolate;
+}
+
+
+.topic
+h1::before
+{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+
+
+
+ .topic
+h1:hover::before 
+{
+    height: 50%;
+}
+
+.bookmark-body {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+
+.bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.table
+th{
+    font-size: 17px;
+}
+
+#deleteButton
+{
+    color: white;
+}
+
+
+#visitButton
+{
+    color: white;
+
+}
+
+
+
