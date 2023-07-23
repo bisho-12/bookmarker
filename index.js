@@ -51,7 +51,7 @@ document.getElementById("dsdata").innerHTML=box;
 
 function clearData()
 {
-    webName.value="";
+    siteName.value="";
     webUrl.value="";
 }
 
